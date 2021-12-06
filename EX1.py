@@ -41,7 +41,7 @@ print('3x3 matrix:')
 print(array_2D)
 
 
-# In[6]:
+# In[4]:
 
 
 #NumPy program to create a vector with values from 0 to 20 and change the sign of the numbers in the range from 9 to 15.
@@ -54,7 +54,7 @@ x[(x >= 9) & (x <= 15)] *= -1
 print(x)
 
 
-# In[7]:
+# In[5]:
 
 
 #NumPy program to create a 5x5 zero matrix with elements on the main diagonal equal to 1, 2, 3, 4, 5
@@ -63,7 +63,7 @@ x = np.diag([1, 2, 3, 4, 5])
 print(x)
 
 
-# In[8]:
+# In[6]:
 
 
 #NumPy program to compute sum of all elements, sum of each column and sum of each row of a given array.
@@ -79,7 +79,7 @@ print("Sum of each row:")
 print(np.sum(x, axis=1))
 
 
-# In[10]:
+# In[7]:
 
 
 #NumPy program to save a given array to a text file and load it.
@@ -95,7 +95,7 @@ result = np.loadtxt('temp.txt')
 print(result)
 
 
-# In[12]:
+# In[8]:
 
 
 #NumPy program to check whether two arrays are equal (element wise) or not
@@ -118,7 +118,7 @@ print("\nTest said two arrays are equal (element wise) or not:?")
 print(np.equal(nums1, nums2))
 
 
-# In[16]:
+# In[9]:
 
 
 #NumPy program to create a 4x4 array with random values, now create a new array from the said array swapping first and last rows.
@@ -131,7 +131,7 @@ new_nums = nums[[3,1,2,0]]
 print(new_nums)
 
 
-# In[17]:
+# In[10]:
 
 
 #NumPy program to multiply two given arrays of same size element-by-element.
